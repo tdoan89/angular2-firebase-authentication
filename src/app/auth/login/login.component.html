@@ -1,0 +1,10 @@
+<div id="login" class="mat-elevation-z10 app-border-radius">
+    <mat-form-field>
+        <input matInput type="email" [(ngModel)]="user.Username" placeholder="Email" required>
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput type="password" [(ngModel)]="user.Password" placeholder="Password" required>
+    </mat-form-field>
+    <mat-error id="error" *ngIf="error">{{error}}</mat-error>
+    <button mat-raised-button id="submit" color="primary" (click)="login()">Login</button>
+</div>

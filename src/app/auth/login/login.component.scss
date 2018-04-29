@@ -1,0 +1,16 @@
+#login {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    margin: 15% auto auto auto;
+    padding: 2rem;
+
+
+    button#submit {
+        width: 6rem;
+        margin: auto
+    }
+    mat-error#error {
+        font-size: 0.8rem;
+    }
+}
